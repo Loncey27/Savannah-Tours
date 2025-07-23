@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Contact Page</title>
+    <script
+      src="https://kit.fontawesome.com/2aaa300193.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body class="Montserrat">
+    <header class="sticky top-0 bg-teal-900">
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <div class="md:flex md:items-center md:gap-12">
+            <a class="block text-teal-600 dark:text-teal-600" href="#">
+              <span class="sr-only">Home</span>
+              <a href="index.html"
+                ><img
+                  class="w-24 h-24 p-0 m-0"
+                  src="/images/Savannah-Travels_Logo.png"
+                  alt="Savannah-Travels logo"
+              /></a>
+            </a>
+          </div>
+
+          <div class="hidden md:block">
+            <nav aria-label="Global">
+              <ul class="flex items-center gap-6 text-sm">
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="destination.html"
+                  >
+                    Destinations
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="destinationdetails.html"
+                  >
+                    Destination Details
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="booking.html"
+                  >
+                    Bookings
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="aboutus.html"
+                  >
+                    About Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="traveltips.html"
+                  >
+                    Blog
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="contact.html"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="sm:flex sm:gap-4">
+              <a
+                class="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm dark:hover:bg-teal-500"
+                href="#"
+              >
+                Login
+              </a>
+
+              <div class="hidden sm:flex">
+                <a
+                  class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Register
+                </a>
+              </div>
+            </div>
+
+            <div class="block md:hidden">
+              <button
+                class="rounded-sm bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="size-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="flex items-center justify-center min-h-screen">
+      <div class="p-4 m-10 shadow-lg rounded-xl">
+        <h1 class="text-center text-4xl m-2 p-2">Contact Us</h1>
+        <p class="text-xl mb-2">
+          We value your feedback. For any concerns, comments, leave us a
+          message.
+        </p>
+        <form class="m-2">
+          <div>
+            <label for="first name">First Name: </label>
+            <input
+              class="outline m-2 text-center h-8 w-60 rounded bg-white"
+              type="name"
+              placeholder="John"
+            />
+            <label for="surname">Surname: </label>
+            <input
+              class="outline m-2 text-center h-8 w-60 rounded bg-white"
+              type="name"
+              placeholder="Doe"
+            />
+          </div>
+          <div>
+            <label for="email">Email: </label>
+            <input
+              class="outline m-2 text-center h-8 w-60 rounded bg-white"
+              type="email"
+              placeholder="example@email.com"
+            /><br />
+            <label for="messge">Message: </label><br />
+            <textarea
+              class="outline bg-white text-area rounded m-2 mb-0 p-1 h-40 w-130"
+              name="message"
+              id="message"
+            ></textarea>
+          </div>
+        </form>
+        <button
+          class="bg-teal-800 text-white h-8 w-20 hover:bg-teal-600 mt-0"
+          type="submit"
+        >
+          Submit</button
+        ><br />
+        <div class="inline-flex">
+          <div class="m-2 p-2">
+            <h3><b>Location</b></h3>
+            <p>Savannah-Travels</p>
+            <p>Mpaka Road</p>
+            <p>Nairobi, 00200</p>
+            <p>Kenya</p>
+          </div>
+          <div class="m-2 p-2">
+            <h3><b>Open</b></h3>
+            <ul>
+              <li>Monday - Sundays</li>
+              <li>Available 24/7</li>
+              <li>Email us: info@savannah-travels.com</li>
+              <li>Call us: +254700-822-580</li>
+            </ul>
+          </div>
+          <div class="m-2 p-2">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3988.8323212142227!2d36.81001207350061!3d-1.273820635609554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1753123018437!5m2!1sen!2ske"
+              width="200"
+              height="150"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <footer class="bg-teal-700 Montserrat">
+    <div class="flex justify-around">
+      <a href="#"
+        ><img class="w-30 h-30" src="/images/Savannah-Travels_Logo.png" alt=""
+      /></a>
+      <ul class="m-2 p-1">
+        <li>Destinations</li>
+        <li>Destination Details</li>
+        <li>Bookings</li>
+        <li>About Us</li>
+        <li>Contact</li>
+      </ul>
+      <ul class="m-2 p-1">
+        <li>
+          <a href="#"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa-brands fa-square-instagram"></i> Instagram</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-square-youtube"></i> YouTube</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-square-x-twitter"></i> x</a>
+        </li>
+      </ul>
+      <form class="m-2 p-1">
+        <div>
+          <h2>Subscribe to our Newsletter</h2>
+        </div>
+        <div>
+          <input
+            class="bg-white"
+            type="text"
+            placeholder="Name"
+            name="name"
+            required
+          />
+          <input
+            class="bg-white"
+            type="email"
+            placeholder="Email address"
+            name="mail"
+            required
+          />
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe" /> Monthly
+            Newsletter
+          </label>
+        </div>
+        <div>
+          <input type="submit" value="Subscribe" />
+        </div>
+      </form>
+    </div>
+    <p class="text-center text-black m-2 p-1">
+      &copy; 2025 Savannah-Travels Company. All rights reserved.
+    </p>
+  </footer>
+</html>

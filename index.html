@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <script
+      src="https://kit.fontawesome.com/2aaa300193.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body class="Montserrat">
+    <header class="sticky top-0 bg-teal-900">
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <div class="md:flex md:items-center md:gap-12">
+            <a class="block text-teal-600 dark:text-teal-600" href="#">
+              <span class="sr-only">Home</span>
+              <!-- random comment -->
+              <a href="index.html"
+                ><img
+                  class="w-24 h-24 p-0 m-0"
+                  src="Savannah-Travels_Logo.png"
+                  alt="Savannah-Travels logo"
+              /></a>
+            </a>
+          </div>
+
+          <div class="hidden md:block">
+            <nav aria-label="Global">
+              <ul class="flex items-center gap-6 text-sm">
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="destination.html"
+                  >
+                    Destinations
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="destinationdetails.html"
+                  >
+                    Destination Details
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="booking.html"
+                  >
+                    Bookings
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="aboutus.html"
+                  >
+                    About Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="traveltips.html"
+                  >
+                    Blog
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="contact.html"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="sm:flex sm:gap-4">
+              <a
+                class="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm dark:hover:bg-teal-500"
+                href="#"
+              >
+                Login
+              </a>
+
+              <div class="hidden sm:flex">
+                <a
+                  class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Register
+                </a>
+              </div>
+            </div>
+
+            <div class="block md:hidden">
+              <button
+                class="rounded-sm bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="size-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="relative w-full h-screen">
+        <img
+          class="w-full h-full object-cover object-center"
+          src="/images/Hero2.png"
+          alt=""
+        />
+      </div>
+      <div
+        class="absolute inset-26 flex flex-col justify-center items-center text-center text-white z-10 image-overlay"
+      >
+        <h1
+          class="text-3xl sm:text-4xl md:text-5xl leading-tight mb-6 drop-shadow-lg"
+        >
+          Your Gateway to Seamless Tourism Experience in the East African
+          Savannah
+        </h1>
+        <button
+          class="bg-teal-800 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
+        >
+          Get Started
+        </button>
+      </div>
+      <h1 class="text-center text-2xl m-2 p-2">Popular Destinations</h1>
+      <div class="flex flex-wrap justify-center">
+        <div class="m-2 shadow-xl border-solid">
+          <img src="/images/Malindi.png" alt="" />
+          <div class="flex space-between">
+            <p class="m-2 p-1">Malindi</p>
+            <p class="m-2 p-1"><b>$4,500</b></p>
+          </div>
+        </div>
+        <div class="m-2 shadow-xl border-solid">
+          <img src="/images/flamingo Lnakuru.png" alt="" />
+          <div class="flex space-between">
+            <p class="m-2 p-1">Lake Nakuru</p>
+            <p class="m-2 p-1"><b>$4,200</b></p>
+          </div>
+        </div>
+        <div class="m-2 shadow-xl border-solid">
+          <img src="/images/elephants.png" alt="" />
+          <div class="flex space-between">
+            <p class="m-2 p-1">Elephants</p>
+            <p class="m-2 p-1"><b>$3,500</b></p>
+          </div>
+        </div>
+        <div class="m-2 shadow-xl border-solid">
+          <img src="/images/Maasai Mara.png" alt="" />
+          <div class="flex space-between">
+            <p class="m-2 p-1">Maasai Mara</p>
+            <p class="m-2 p-1"><b>$2,700</b></p>
+          </div>
+        </div>
+        <div class="m-2 shadow-xl border-solid">
+          <img src="/images/UG.png" alt="" />
+          <div class="flex space-between">
+            <p class="m-2 p-1">UG</p>
+            <p class="m-2 p-1"><b>$2,200</b></p>
+          </div>
+        </div>
+        <div class="m-2 shadow-xl border-solid">
+          <img src="/images/UG2.png" alt="" />
+            <div class="flex space-between">
+                <p class="m-2 p-1">Maasai Mara</p>
+                <p class="m-2 p-1"><b>$2,750</b></p>
+            </div> 
+        </div>
+      </div>
+      <h1 class="text-2xl text-center m-2">Why Choose US</h1>
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 overflow-auto">
+        <div
+          class="outline m-2 p-2 cursor-pointer rounded-xl hover:bg-teal-700 shadow-xl"
+        >
+          <h3><b>Expert Local Knowledge</b></h3>
+          <p>
+            We're local experts with deep roots and passion for East Africa. Our
+            guides and planners know the hidden gems, ensuring you get authentic
+            experiences beyond typical tourist paths.
+          </p>
+        </div>
+        <div
+          class="outline m-2 p-2 cursor-pointer rounded-xl hover:bg-gray-700"
+        >
+          <h3><b>Tailored, Unforgettable Journeys</b></h3>
+          <p>
+            Forget generic trips. Every Savannah-Travels itinerary is
+            custom-designed for you, matching your desires and budget. We craft
+            personalized adventures that create lifelong memories.
+          </p>
+        </div>
+        <div
+          class="outline m-2 p-2 cursor-pointer rounded-xl hover:bg-blue-700"
+        >
+          <h3><b>Committed to Responsible Travel</b></h3>
+          <p>
+            Your journey with us supports conservation and local communities. We
+            ensure your adventure leaves a positive impact on the environment
+            and people, promoting sustainable tourism.
+          </p>
+        </div>
+        <div
+          class="outline m-2 p-2 cursor-pointer rounded-xl hover:bg-orange-700"
+        >
+          <h3><b>Seamless, Worry-Free Exploration</b></h3>
+          <p>
+            From planning to your return, we handle every detail with care. Our
+            24/7 support and expert logistics mean you can relax and fully
+            immerse yourself in the magic of your African adventure.
+          </p>
+        </div>
+      </div>
+      <h1 class="text-center text-2xl">Testimonials</h1>
+      <div class="flex flex-nowrap">
+        <div class="m-2 p-4 box-border shadow-xl rounded-xl">
+          <img class="w-35 h-35 ml-12" src="/images/Alice.png" alt="" />
+          <p><b>Alice Carrey</b></p>
+          <p><span style="color:rgb(241, 196, 96);"> ★★★★★</span></p>
+          <p>
+            "Savannah-Travels delivered an incredible safari experience. Highly
+            recommend their service!"
+          </p>
+        </div>
+        <div class="m-2 p-4 box-border shadow-xl rounded-xl">
+          <img class="w-35 h-35 ml-12" src="/images/Ammy.png" alt="" />
+          <p><b>Ammy Edwards</b></p>
+          <p><span style="color:rgb(241, 196, 96);"> ★★★★★</span></p>
+          <p>
+            "Breathtaking views and knowledgeable guides. Savannah-Travels truly
+            exceeded expectations."
+          </p>
+        </div>
+        <div class="m-2 p-4 box-border shadow-xl rounded-xl">
+          <img class="w-35 h-35 ml-12" src="/images/Jenny.png" alt="" />
+          <p><b>Jenny Fox</b></p>
+          <p><span style="color:rgb(241, 196, 96);"> ★★★★★</span></p>
+          <p>
+            "Our trip with Savannah-Travels was seamless and unforgettable.
+            Excellent planning and execution."
+          </p>
+        </div>
+        <div class="m-2 p-4 box-border shadow-xl rounded-xl">
+          <img class="w-35 h-35 ml-12" src="/images/Michaels.png" alt="" />
+          <p><b>Michaels Harringtone</b></p>
+          <p><span style="color:rgb(241, 196, 96);"> ★★★★★</span></p>
+          <p>
+            "Professional and friendly service. We had an amazing adventure
+            thanks to Savannah-Travels."
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+  <footer class="bg-teal-700 Montserrat">
+    <div class="flex justify-around">
+      <a href="#"
+        ><img class="w-30 h-30" src="/images/Savannah-Travels_Logo.png" alt=""
+      /></a>
+      <ul class="m-2 p-1">
+        <li>Destinations</li>
+        <li>Destination Details</li>
+        <li>Bookings</li>
+        <li>About Us</li>
+        <li>Contact</li>
+      </ul>
+      <ul class="m-2 p-1">
+        <li>
+          <a href="#"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa-brands fa-square-instagram"></i> Instagram</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-square-youtube"></i> YouTube</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-square-x-twitter"></i> x</a>
+        </li>
+      </ul>
+      <form class="m-2 p-1">
+        <div>
+          <h2>Subscribe to our Newsletter</h2>
+        </div>
+        <div>
+          <input
+            class="bg-white"
+            type="text"
+            placeholder="Name"
+            name="name"
+            required
+          />
+          <input
+            class="bg-white"
+            type="email"
+            placeholder="Email address"
+            name="mail"
+            required
+          />
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe" /> Monthly
+            Newsletter
+          </label>
+        </div>
+        <div>
+          <input type="submit" value="Subscribe" />
+        </div>
+      </form>
+    </div>
+    <p class="text-center text-black m-2 p-1">
+      &copy; 2025 Savannah-Travels Company. All rights reserved.
+    </p>
+  </footer>
+</html>

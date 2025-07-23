@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destination Page</title>
+    <script
+      src="https://kit.fontawesome.com/2aaa300193.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body class="Montserrat">
+    <header class="sticky top-0 bg-teal-900">
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <div class="md:flex md:items-center md:gap-12">
+            <a class="block text-teal-600 dark:text-teal-600" href="#">
+              <span class="sr-only">Home</span>
+              <a href="index.html"
+                ><img
+                  class="w-24 h-24 p-0 m-0"
+                  src="/images/Savannah-Travels_Logo.png"
+                  alt="Savannah-Travels logo"
+              /></a>
+            </a>
+          </div>
+
+          <div class="hidden md:block">
+            <nav aria-label="Global">
+              <ul class="flex items-center gap-6 text-sm">
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="destination.html"
+                  >
+                    Destinations
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="destinationdetails.html"
+                  >
+                    Destination Details
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="booking.html"
+                  >
+                    Bookings
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="aboutus.html"
+                  >
+                    About Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="traveltips.html"
+                  >
+                    Blog
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    class="text-white text-lg transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                    href="contact.html"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="sm:flex sm:gap-4">
+              <a
+                class="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm dark:hover:bg-teal-500"
+                href="#"
+              >
+                Login
+              </a>
+
+              <div class="hidden sm:flex">
+                <a
+                  class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+                  href="#"
+                >
+                  Register
+                </a>
+              </div>
+            </div>
+
+            <div class="block md:hidden">
+              <button
+                class="rounded-sm bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="size-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="p-4 m-8 rounded-xl bg-white">
+        <h1 class="text-center text-2xl">Search for your Favorite Travel Destination</h1>
+        <div class="flex justify-center m-4">
+          <input
+            class="h-8 w-180 text-center outline rounded-3xl"
+            type="text"
+            placeholder="Search destination . . ."
+          />
+          <i class="fa-thin fa-magnifying-glass"></i>
+        </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 overflow-auto"
+        >
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Vasco Da Ghama Pillar Malindi.png" alt="" />
+            <p><b>Malindi</b></p>
+            <p class="text-grey"><b>Kenya</b></p>
+            <p>
+              Malindi is a vibrant coastal town in Kenya, renowned for its rich
+              history, stunning beaches, and diverse marine life. It offers a
+              captivating blend of Swahili, Arab, and European cultures, evident
+              in its architecture, cuisine, and bustling markets. Visitors can
+              explore historical sites like the Vasco da Gama Pillar and the
+              Malindi Museum, relax on pristine sands, or enjoy water sports and
+              deep-sea fishing in the warm Indian Ocean. It's a perfect blend of
+              cultural exploration and beach relaxation.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/flamingo lake Nakuru.jpg" alt="" />
+            <p><b>L. Nakuru</b></p>
+            <p><b>Kenya</b></p>
+            <p>
+              Lake Nakuru National Park is a jewel in Kenya's Rift Valley,
+              famous for its stunning flocks of pink flamingos that can number
+              in the millions, painting the lake's shores. Beyond the avian
+              spectacle, it's a vital sanctuary for black and white rhinos,
+              Rothschild's giraffes, and other diverse wildlife, offering
+              excellent game viewing opportunities against a backdrop of acacia
+              woodlands and rocky cliffs. It's a photographer's paradise and a
+              key stop for nature lovers.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Amboseli.jpg" alt="" />
+            <p><b>Amboseli National Park</b></p>
+            <p><b>Kenya</b></p>
+            <p>
+              Amboseli National Park in Kenya is iconic for its breathtaking
+              views of Mount Kilimanjaro, Africa's highest peak, serving as a
+              majestic backdrop to its vast plains. It's renowned for its large
+              herds of elephants with impressive tusks, often seen wading in the
+              swamps. The park's diverse habitats, from dry plains to wetlands,
+              support a rich array of wildlife, making it a prime destination
+              for classic African safari experiences and stunning photography.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Diani Beach.png" alt="" />
+            <p><b>Diani Beach</b></p>
+            <p><b>Kenya</b></p>
+            <p>
+              Diani Beach, located on Kenya's Indian Ocean coast, is a pristine
+              paradise famed for its soft, white sands and clear, turquoise
+              waters. Lined with swaying palm trees and luxurious resorts, it's
+              a haven for relaxation and water sports. Visitors can enjoy
+              snorkeling, diving among vibrant coral reefs, kite surfing, or
+              simply basking in the tropical sun. It's consistently ranked among
+              Africa's best beaches, offering a perfect blend of tranquility and
+              adventure.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Tsavo National Park.jpg" alt="" />
+            <p><b>Tsavo National Park</b></p>
+            <p><b>Kenya</b></p>
+            <p>
+              Tsavo National Park, one of Kenya's oldest and largest wildlife
+              sanctuaries, is divided into Tsavo East and Tsavo West. It's
+              famous for its "red elephants" (stained by the park's red earth),
+              vast open plains, and the Shetani Lava Flows. Tsavo West offers a
+              more diverse landscape with volcanic hills and Mzima Springs,
+              while Tsavo East is known for its flat, dry plains and the Yatta
+              Plateau. Both offer exceptional opportunities for game viewing,
+              including the "Big Five," and a sense of true wilderness.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Maasai Mara RSV.png" alt="" />
+            <p><b>Maasai Mara</b></p>
+            <p><b>Kenya</b></p>
+            <p>
+              Maasai Mara National Reserve is Kenya's most famous wildlife
+              destination, globally renowned for the annual Great Migration,
+              where millions of wildebeest and zebras cross its plains. It
+              offers unparalleled opportunities to witness the "Big Five" and a
+              high concentration of predators. The reserve's endless grasslands,
+              dotted with acacia trees, provide a classic safari landscape and a
+              truly immersive African wilderness experience.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Lamu Island.png" alt="" />
+            <p><b>Lamu Island</b></p>
+            <p><b>Kenya</b></p>
+            <p>
+              Lamu Island, a UNESCO World Heritage site off Kenya's coast, is a
+              captivating ancient Swahili trading town. Famous for its narrow,
+              winding streets, traditional stone houses, and absence of cars
+              (donkeys are the primary transport), it offers a unique step back
+              in time. Visitors can explore its rich history, enjoy dhow
+              sailing, relax on serene beaches, and experience a vibrant,
+              preserved Swahili culture. It's a tranquil escape with a distinct
+              charm.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Hells Gate.jpg" alt="" />
+            <p><b>Hell's Gate</b></p>
+            <p><b>Kenya</b></p>
+            <p>
+              Hell's Gate National Park, located near Lake Naivasha in Kenya, is
+              a unique safari destination known for its dramatic geothermal
+              activity, towering cliffs, and diverse wildlife. Unlike most
+              parks, it allows visitors to explore on foot or by bicycle,
+              offering an intimate encounter with nature. Its iconic features
+              include Fischer's Tower, Central Tower, and the Olkaria Geothermal
+              Station, making it ideal for hiking, rock climbing, and
+              birdwatching amidst stunning volcanic landscapes.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Mt. Kenya.jpg" alt="" />
+            <p><b>Mt. Kenya</b></p>
+            <p><b>Kenya</b></p>
+            <p>
+              Mount Kenya National Park, home to Africa's second-highest peak,
+              is a UNESCO World Heritage site renowned for its rugged,
+              glacier-clad summits and diverse Afro-alpine vegetation. It offers
+              challenging climbing routes to Batian, Nelion, and Point Lenana,
+              alongside stunning high-altitude trekking. The park also protects
+              a variety of wildlife, including elephants, buffalo, and various
+              antelope species, set within a dramatic landscape of forests,
+              moorlands, and glacial valleys. It's a prime destination for
+              mountaineers and nature enthusiasts seeking high-altitude
+              adventure.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Abadares.jpg" alt="" />
+            <p><b>Aberdare National Park</b></p>
+            <p><b>Kenya</b></p>
+            <p>
+              Aberdare National Park, nestled in Kenya's central highlands, is a
+              misty, mountainous sanctuary known for its dense forests, deep
+              ravines, and spectacular waterfalls like Karuru and Gura. Unlike
+              the open savannas, it offers a unique "tree-top" viewing
+              experience from lodges overlooking waterholes, where visitors can
+              spot elephants, buffalo, leopards, and the rare bongo. Its cool,
+              high-altitude environment provides a distinct and lush wildlife
+              viewing experience.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Ngorongoro Crater Tanzania.jpg" alt="" />
+            <p><b>Ngorongoro Crater National Park</b></p>
+            <p><b>Tanzania</b></p>
+            <p>
+              Ngorongoro Conservation Area in Tanzania is a UNESCO World
+              Heritage site, famous for the Ngorongoro Crater, the world's
+              largest intact volcanic caldera. Often called "Africa's Garden of
+              Eden," it boasts an astonishing concentration of wildlife,
+              including the "Big Five," living in close proximity on the crater
+              floor. This natural amphitheater offers unparalleled, year-round
+              game viewing in a stunning and unique ecosystem.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Lake Manyara National Park.jpg" alt="" />
+            <p><b>Lake Manyara National Park</b></p>
+            <p><b>Tanzania</b></p>
+            <p>
+              Lake Manyara National Park, nestled at the base of the Great Rift
+              Valley escarpment in Tanzania, is a diverse wildlife haven
+              renowned for its tree-climbing lions, large baboon troops, and a
+              vibrant birdlife, including thousands of flamingos. Its varied
+              habitats, from groundwater forests to acacia woodlands and the
+              soda lake itself, support a rich ecosystem, offering a compact yet
+              incredibly rewarding safari experience.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Serengeti National Park.jpg" alt="" />
+            <p><b>Serengeti National Park</b></p>
+            <p><b>Tanzania</b></p>
+            <p>
+              Serengeti National Park in Tanzania is one of Africa's most iconic
+              wildlife destinations, globally celebrated for the annual Great
+              Migration, where millions of wildebeest and zebras traverse its
+              vast plains. Its endless savannas are home to an exceptionally
+              high concentration of predators, including lions, cheetahs, and
+              leopards, alongside the "Big Five" and countless other species. It
+              offers an unparalleled, raw, and authentic African safari
+              experience.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Mt. Kilimanjaro National Park.jpg" alt="" />
+            <p><b>Mt. Kilimanjaro National Park</b></p>
+            <p><b>tanzania</b></p>
+            <p>
+              Kilimanjaro National Park in Tanzania is home to Mount
+              Kilimanjaro, Africa's highest peak and the world's tallest
+              freestanding mountain. A UNESCO World Heritage site, it offers
+              diverse climatic zones, from lush rainforests to alpine deserts
+              and glacial summits, attracting climbers from around the globe.
+              While primarily a climbing destination, the park also protects
+              unique flora and fauna, providing a challenging yet rewarding
+              adventure amidst breathtaking landscapes.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Nakupenda Beach Zanzibar.jpg" alt="" />
+            <p><b>Nakupenda Beach, Zanzibar</b></p>
+            <p><b>Tanzania</b></p>
+            <p>
+              Nakupenda Beach, located near Stone Town in Zanzibar, Tanzania, is
+              a stunning sandbank renowned for its pristine white sands and
+              crystal-clear turquoise waters. Accessible only by boat, it offers
+              a secluded paradise perfect for swimming, snorkeling among vibrant
+              coral reefs, and sunbathing. Often combined with a seafood
+              barbecue lunch, it's a popular excursion providing a truly idyllic
+              and memorable island escape.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-2 shadow-xl">
+            <img src="/images/Mafia Island Beach.jpg" alt="" />
+            <p><b>Mafia Island Beach</b></p>
+            <p><b>Tanzania</b></p>
+            <p>
+              Mafia Island, off Tanzania's coast, is a serene, unspoiled
+              paradise primarily known as a world-class diving and snorkeling
+              destination. Part of a protected marine park, its pristine coral
+              reefs teem with diverse marine life, including whale sharks
+              (seasonal), making it ideal for underwater exploration. Beyond its
+              aquatic wonders, the island offers tranquil beaches, lush
+              vegetation, and a relaxed, authentic Swahili island atmosphere,
+              far from the crowds.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-2 shadow-xl">
+            <img src="/images/Queen Elizabeth National Park.jpg" alt="" />
+            <p><b>Queen Elizabeth national Park</b></p>
+            <p><b>Uganda</b></p>
+            <p>
+              Queen Elizabeth National Park, Uganda's most popular safari
+              destination, is a biodiverse haven famed for its tree-climbing
+              lions in Ishasha, the Kazinga Channel's abundant hippos and birds,
+              and diverse ecosystems ranging from savannas to wetlands. It
+              offers exceptional game drives, boat safaris, and chimpanzee
+              tracking, providing a comprehensive and vibrant Ugandan wildlife
+              experience.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Murchison Falls National Park.jpg" alt="" />
+            <p><b>Murchison Falls National Park</b></p>
+            <p><b>Uganda</b></p>
+            <p>
+              Murchison Falls National Park, Uganda's largest national park, is
+              dominated by the spectacular Murchison Falls, where the Nile River
+              dramatically squeezes through a 7-meter gorge before plunging 43
+              meters. The park boasts abundant wildlife, including the "Big
+              Five," best viewed on game drives and boat safaris along the Nile,
+              offering a powerful combination of scenic beauty and diverse
+              wildlife encounters.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Kidepo Valley National Park.jpg" alt="" />
+            <p><b>Kidepo Valley National Park</b></p>
+            <p><b>Uganda</b></p>
+            <p>
+              Kidepo Valley National Park, nestled in Uganda's remote
+              northeastern corner, is a rugged and isolated wilderness renowned
+              for its breathtaking landscapes of vast plains, rugged mountains,
+              and abundant wildlife unique to the region. It offers exceptional
+              opportunities to spot cheetahs, ostriches, and the rare Kidepo
+              specials, providing an authentic, off-the-beaten-path safari
+              experience in a truly wild setting.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+          <div class="m-2 p-4 shadow-xl">
+            <img src="/images/Mgahinga Gorilla National Park.jpg" alt="" />
+            <p><b>Mgahinga Gorilla National Park</b></p>
+            <p><b>Uganda</b></p>
+            <p>
+              Mgahinga Gorilla National Park, Uganda's smallest national park,
+              is a vital part of the Virunga Mountains, protecting endangered
+              mountain gorillas and golden monkeys. It offers intimate gorilla
+              trekking experiences, golden monkey tracking, and volcano
+              climbing, all within a stunning landscape of dense forests and
+              volcanic peaks. It's a crucial conservation area providing unique
+              primate encounters.
+            </p>
+            <button class="text-white h-8 w-24 bg-teal-900 hover:bg-teal-500">
+              View Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <footer class="bg-teal-700 Montserrat">
+    <div class="flex justify-around">
+      <a href="#"
+        ><img class="w-30 h-30" src="/images/Savannah-Travels_Logo.png" alt=""
+      /></a>
+      <ul class="m-2 p-1">
+        <li>Destinations</li>
+        <li>Destination Details</li>
+        <li>Bookings</li>
+        <li>About Us</li>
+        <li>Contact</li>
+      </ul>
+      <ul class="m-2 p-1">
+        <li>
+          <a href="#"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fa-brands fa-square-instagram"></i> Instagram</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-square-youtube"></i> YouTube</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-square-x-twitter"></i> x</a>
+        </li>
+      </ul>
+      <form class="m-2 p-1">
+        <div>
+          <h2>Subscribe to our Newsletter</h2>
+        </div>
+        <div>
+          <input
+            class="bg-white"
+            type="text"
+            placeholder="Name"
+            name="name"
+            required
+          />
+          <input
+            class="bg-white"
+            type="email"
+            placeholder="Email address"
+            name="mail"
+            required
+          />
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe" /> Monthly
+            Newsletter
+          </label>
+        </div>
+        <div>
+          <input type="submit" value="Subscribe" />
+        </div>
+      </form>
+    </div>
+    <p class="text-center text-black m-2 p-1">
+      &copy; 2025 Savannah-Travels Company. All rights reserved.
+    </p>
+  </footer>
+</html>
